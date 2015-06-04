@@ -1,0 +1,10 @@
+<!--<?xml version="1.0" ?>-->
+
+<openerp>
+    <data>
+    	<record model="ir.ui.view" id="compte_form">
+    	</record> 
+    	<menuitem id="paa_rh" name="Gestion des comptes"/>
+    		<menuitem name="Compte LDAP" id="section_ldap" parent="paa_rh" />
+    </data>
+</openerp>
